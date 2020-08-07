@@ -1,0 +1,7 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"failed","Mon Aug 03 20:51:16 IST 2020","Mon Aug 03 20:51:16 IST 2020","0","","test_100","","","","test_divisible_by_6",""
+"passed","Mon Aug 03 20:51:17 IST 2020","Mon Aug 03 20:51:17 IST 2020","0","","test_allure","","","","test_multiplication_11[2-22]",""
+"failed","Mon Aug 03 20:51:17 IST 2020","Mon Aug 03 20:51:17 IST 2020","0","","test_allure","","","","test_multiplication_11[3-35]",""
+"passed","Mon Aug 03 20:51:16 IST 2020","Mon Aug 03 20:51:16 IST 2020","1","","test_100","","","","test_divisible_by_3",""
+"passed","Mon Aug 03 20:51:17 IST 2020","Mon Aug 03 20:51:17 IST 2020","0","","test_allure","","","","test_multiplication_11[1-11]",""
+"passed","Mon Aug 03 20:51:17 IST 2020","Mon Aug 03 20:51:17 IST 2020","0","","test_allure","","","","test_multiplication_11[4-44]",""

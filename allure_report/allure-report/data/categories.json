@@ -1,0 +1,43 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert (39 % 6) == 0",
+      "children" : [ {
+        "name" : "test_divisible_by_6",
+        "uid" : "19b23309d0cc6004",
+        "parentUid" : "fb341362b9bb70619de744bfc4f945cc",
+        "status" : "failed",
+        "time" : {
+          "start" : 1596468076939,
+          "stop" : 1596468076939,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "fb341362b9bb70619de744bfc4f945cc"
+    }, {
+      "name" : "AssertionError: assert (11 * 3) == 35",
+      "children" : [ {
+        "name" : "test_multiplication_11[3-35]",
+        "uid" : "f02326d4fefb87bc",
+        "parentUid" : "1a70e284fc0e220feedea35293fa0abd",
+        "status" : "failed",
+        "time" : {
+          "start" : 1596468077045,
+          "stop" : 1596468077045,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "3", "35" ]
+      } ],
+      "uid" : "1a70e284fc0e220feedea35293fa0abd"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

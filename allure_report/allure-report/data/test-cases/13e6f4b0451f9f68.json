@@ -1,0 +1,65 @@
+{
+  "uid" : "13e6f4b0451f9f68",
+  "name" : "test_divisible_by_3",
+  "fullName" : "test_100#test_divisible_by_3",
+  "historyId" : "d4282a9443f525472b06abdc11b0785b",
+  "time" : {
+    "start" : 1596468076934,
+    "stop" : 1596468076935,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "input_value",
+    "time" : {
+      "start" : 1596468076915,
+      "stop" : 1596468076915,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_100"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-GE3UEJE"
+  }, {
+    "name" : "thread",
+    "value" : "23824-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_100"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "13e6f4b0451f9f68.json",
+  "parameterValues" : [ ]
+}

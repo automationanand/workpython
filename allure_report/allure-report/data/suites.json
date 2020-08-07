@@ -1,0 +1,91 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "test_100",
+    "children" : [ {
+      "name" : "test_divisible_by_3",
+      "uid" : "13e6f4b0451f9f68",
+      "parentUid" : "2ac823f25ae6baa99c1e4ac246ef9f72",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596468076934,
+        "stop" : 1596468076935,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_divisible_by_6",
+      "uid" : "19b23309d0cc6004",
+      "parentUid" : "2ac823f25ae6baa99c1e4ac246ef9f72",
+      "status" : "failed",
+      "time" : {
+        "start" : 1596468076939,
+        "stop" : 1596468076939,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "2ac823f25ae6baa99c1e4ac246ef9f72"
+  }, {
+    "name" : "test_allure",
+    "children" : [ {
+      "name" : "test_multiplication_11[1-11]",
+      "uid" : "62362b77d6e48aba",
+      "parentUid" : "fbee53df8487942ba5333ea9eebb3863",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596468077030,
+        "stop" : 1596468077030,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "1", "11" ]
+    }, {
+      "name" : "test_multiplication_11[2-22]",
+      "uid" : "171b05d16bb2a548",
+      "parentUid" : "fbee53df8487942ba5333ea9eebb3863",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596468077038,
+        "stop" : 1596468077038,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "2", "22" ]
+    }, {
+      "name" : "test_multiplication_11[3-35]",
+      "uid" : "f02326d4fefb87bc",
+      "parentUid" : "fbee53df8487942ba5333ea9eebb3863",
+      "status" : "failed",
+      "time" : {
+        "start" : 1596468077045,
+        "stop" : 1596468077045,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "3", "35" ]
+    }, {
+      "name" : "test_multiplication_11[4-44]",
+      "uid" : "4f26e1e2a84ea752",
+      "parentUid" : "fbee53df8487942ba5333ea9eebb3863",
+      "status" : "passed",
+      "time" : {
+        "start" : 1596468077084,
+        "stop" : 1596468077084,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "4", "44" ]
+    } ],
+    "uid" : "fbee53df8487942ba5333ea9eebb3863"
+  } ]
+}
