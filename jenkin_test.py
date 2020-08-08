@@ -1,4 +1,4 @@
 def addd(n):
     c=n+n
     return c
-print(addd(10))
+print(addd(20))

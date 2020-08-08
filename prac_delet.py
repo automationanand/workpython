@@ -3,49 +3,49 @@ from selenium.webdriver.common.keys import Keys
 from functools import wraps
 import time
 from selenium.webdriver.chrome.options import Options
-class makemytrip():
-    def flight_booking(self):
-        driver=webdriver.Chrome()
-        driver.get("https://www.makemytrip.com/")
-        driver.maximize_window()
-        #driver.save_screenshot("screenshot.png")
-        driver.implicitly_wait(10)
-        driver.find_element_by_xpath('//*[@id="SW"]/div[1]/div[1]/ul/li[6]').click()
-        driver.find_element_by_xpath('//*[@id="root"]/div/div[2]/div/div/div[2]/div[1]/div[1]').click()
-        driver.find_element_by_xpath('//*[@id="root"]/div/div[2]/div/div/div[2]/div[1]/div[1]/div[1]/div/div/div/input').send_keys('Mumbai')
-        driver.find_element_by_xpath('//*[@id="react-autowhatever-1-section-0-item-0"]/div/div[1]').click()
-        driver.find_element_by_xpath('//*[@id="root"]/div/div[2]/div/div/div[2]/div[1]/div[2]').click()
-        driver.implicitly_wait(5)
-        driver.find_element_by_xpath('//*[@id="root"]/div/div[2]/div/div/div[2]/div[1]/div[2]/div[1]/div/div/div/input').send_keys('Hyderbad')
-        driver.implicitly_wait(5)
-        driver.find_element_by_xpath('//*[@id="react-autowhatever-1-section-0-item-0"]/div').click()
-        driver.implicitly_wait(5)
-        driver.find_element_by_xpath('//*[@id="root"]/div/div[2]/div/div/div[2]/div[1]/div[3]').click()
-        s=driver.find_element_by_xpath('//*[@id="root"]/div/div[2]/div/div/div[2]/div[1]/div[3]/div[1]/div/div/div/div[2]/div/div[2]/div[1]/div[3]').text
-        print(s.split())
-        book = driver.find_element_by_xpath('//*[@id="root"]/div/div[2]/div/div/div[2]/div[1]/div[3]/div[1]/div/div/div/div[2]/div/div[2]/div[1]/div[3]/div[5]/div[5]/div')
-        book.click()
-        driver.find_element_by_xpath('//*[@id="root"]/div/div[2]/div/div/div[2]/div[1]/div[4]').click()
-        driver.find_element_by_xpath('//*[@id="root"]/div/div[2]/div/div/div[2]/div[1]/div[3]/div[1]/div/div/div/div[2]/div/div[2]/div[1]/div[3]/div[5]/div[6]/div').click()
-        search=driver.find_element_by_xpath('//*[@id="root"]/div/div[2]/div/div/div[2]/p/a')
-        a=search.text
-        assert a == 'SEARC','string not matching'
-        driver.get_screenshot_as_file("capture.png")
-        search.click()
-obj=makemytrip()
-obj.flight_booking()
+# class makemytrip():
+#     def flight_booking(self):
+#         driver=webdriver.Chrome()
+#         driver.get("https://www.makemytrip.com/")
+#         driver.maximize_window()
+#         #driver.save_screenshot("screenshot.png")
+#         driver.implicitly_wait(10)
+#         driver.find_element_by_xpath('//*[@id="SW"]/div[1]/div[1]/ul/li[6]').click()
+#         driver.find_element_by_xpath('//*[@id="root"]/div/div[2]/div/div/div[2]/div[1]/div[1]').click()
+#         driver.find_element_by_xpath('//*[@id="root"]/div/div[2]/div/div/div[2]/div[1]/div[1]/div[1]/div/div/div/input').send_keys('Mumbai')
+#         driver.find_element_by_xpath('//*[@id="react-autowhatever-1-section-0-item-0"]/div/div[1]').click()
+#         driver.find_element_by_xpath('//*[@id="root"]/div/div[2]/div/div/div[2]/div[1]/div[2]').click()
+#         driver.implicitly_wait(5)
+#         driver.find_element_by_xpath('//*[@id="root"]/div/div[2]/div/div/div[2]/div[1]/div[2]/div[1]/div/div/div/input').send_keys('Hyderbad')
+#         driver.implicitly_wait(5)
+#         driver.find_element_by_xpath('//*[@id="react-autowhatever-1-section-0-item-0"]/div').click()
+#         driver.implicitly_wait(5)
+#         driver.find_element_by_xpath('//*[@id="root"]/div/div[2]/div/div/div[2]/div[1]/div[3]').click()
+#         s=driver.find_element_by_xpath('//*[@id="root"]/div/div[2]/div/div/div[2]/div[1]/div[3]/div[1]/div/div/div/div[2]/div/div[2]/div[1]/div[3]').text
+#         print(s.split())
+#         book = driver.find_element_by_xpath('//*[@id="root"]/div/div[2]/div/div/div[2]/div[1]/div[3]/div[1]/div/div/div/div[2]/div/div[2]/div[1]/div[3]/div[5]/div[5]/div')
+#         book.click()
+#         driver.find_element_by_xpath('//*[@id="root"]/div/div[2]/div/div/div[2]/div[1]/div[4]').click()
+#         driver.find_element_by_xpath('//*[@id="root"]/div/div[2]/div/div/div[2]/div[1]/div[3]/div[1]/div/div/div/div[2]/div/div[2]/div[1]/div[3]/div[5]/div[6]/div').click()
+#         search=driver.find_element_by_xpath('//*[@id="root"]/div/div[2]/div/div/div[2]/p/a')
+#         a=search.text
+#         assert a == 'SEARCH','string not matching'
+#
+#         search.click()
+# obj=makemytrip()
+# obj.flight_booking()
 
 #
-# from selenium import webdriver
-# from selenium.webdriver.common.action_chains import ActionChains
-#
-# driver = webdriver.Chrome()
-# driver.get('http://www.w3schools.com/')
-# target = driver.find_element_by_link_text('LEARN PYTHON')
-# actions = ActionChains(driver)
-# actions.move_to_element(target)
-# actions.perform()
-# # target.click()
+from selenium import webdriver
+from selenium.webdriver.common.action_chains import ActionChains
+
+driver = webdriver.Chrome()
+driver.get('http://www.w3schools.com/')
+target = driver.find_element_by_link_text('LEARN PYTHON')
+actions = ActionChains(driver)
+actions.move_to_element(target)
+actions.perform()
+target.click()
 #
 # # driver = webdriver.Chrome()
 # # driver.get('http://www.w3schools.com/')
