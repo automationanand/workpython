@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9329b01a-8650-48f3-874d-1c2e1e64fa60" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="9329b01a-8650-48f3-874d-1c2e1e64fa60" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,11 +31,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/automation/auto/test_2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="14" selection-start-line="14" selection-start-column="2" selection-end-line="30" selection-end-column="16" />
+            <state relative-caret-position="476">
+              <caret line="28" column="19" selection-start-line="14" selection-start-column="2" selection-end-line="30" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -49,6 +47,15 @@
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/jenkin_test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="15" lean-forward="true" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -94,6 +101,7 @@
         <option value="$PROJECT_DIR$/allure_report/test_allure.py" />
         <option value="$PROJECT_DIR$/allure_report/test_100.py" />
         <option value="$PROJECT_DIR$/automation/auto/test_2.py" />
+        <option value="$PROJECT_DIR$/jenkin_test.py" />
       </list>
     </option>
   </component>
@@ -116,6 +124,17 @@
             <path>
               <item name="PANDAS" type="b2602c69:ProjectViewProjectNode" />
               <item name="PANDAS" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PANDAS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PANDAS" type="462c0819:PsiDirectoryNode" />
+              <item name="automation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PANDAS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PANDAS" type="462c0819:PsiDirectoryNode" />
+              <item name="automation" type="462c0819:PsiDirectoryNode" />
+              <item name="auto" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="PANDAS" type="b2602c69:ProjectViewProjectNode" />
@@ -463,15 +482,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/prac2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/prac_delet.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -491,8 +501,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/automation/auto/test_2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="14" selection-start-line="14" selection-start-column="2" selection-end-line="30" selection-end-column="16" />
+        <state relative-caret-position="476">
+          <caret line="28" column="19" selection-start-line="14" selection-start-column="2" selection-end-line="30" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/prac2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jenkin_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="15" lean-forward="true" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
         </state>
       </provider>
     </entry>
