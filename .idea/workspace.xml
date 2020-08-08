@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="9329b01a-8650-48f3-874d-1c2e1e64fa60" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/automation/auto/test_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/automation/auto/test_2.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -98,7 +97,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-10" />
     <option name="y" value="-10" />
     <option name="width" value="815" />
@@ -117,17 +116,6 @@
             <path>
               <item name="PANDAS" type="b2602c69:ProjectViewProjectNode" />
               <item name="PANDAS" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PANDAS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PANDAS" type="462c0819:PsiDirectoryNode" />
-              <item name="automation" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PANDAS" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PANDAS" type="462c0819:PsiDirectoryNode" />
-              <item name="automation" type="462c0819:PsiDirectoryNode" />
-              <item name="auto" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="PANDAS" type="b2602c69:ProjectViewProjectNode" />
@@ -305,9 +293,9 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25561428" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25561428" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -318,7 +306,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.2970297" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.2970297" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
